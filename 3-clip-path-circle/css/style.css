@@ -1,0 +1,27 @@
+body {
+  color: #343434;
+  font-size: 1.15rem;
+  line-height: 1.55;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding-top: 3em;
+}
+.main-content {
+  margin: 0 auto;
+  padding-right: 3em;
+}
+h1 {
+  font-family: 'Bree Serif', serif;
+  font-size: 3.2em;
+  line-height: 1;
+  margin: 0 0 0.85em 0;
+}
+
+/* Let's create a CSS clipping path! */
+.moon {
+  width: 550px;
+  clip-path: circle(161px at 50% 50.3%);
+  float: left;
+  shape-outside: circle(161px at 50% 50.3%);
+  shape-margin: 40px;
+}

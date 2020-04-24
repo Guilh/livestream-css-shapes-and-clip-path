@@ -1,0 +1,33 @@
+body {
+  color: #343434;
+  font-size: 1.1rem;
+  line-height: 1.55;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding-top: 3em;
+}
+.main-content {
+  width: 90%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+h1 {
+  font-family: 'Bree Serif', serif;
+  font-size: 3em;
+  line-height: 1;
+  margin: 0 0 0.5em;
+}
+
+/* Let's create CSS shapes! */
+.triangle {
+  width: 300px;
+  height: 500px;
+  float: left;
+  shape-outside: polygon( 0 0, 0 200px, 300px 600px );
+}
+.shape {
+  width: 590px;
+  float: left;
+  shape-outside: polygon(0px -11px, 321px 8px, 348px 23px, 360px 50px, 398px 72px, 427px 112px, 449px 125px, 467px 145px, 493px 141px, 545px 205px, 596px 286px, 556px 325px, 500px 324px, 445px 341px, 441px 481px, -8px 479px);
+  shape-margin: 15px;
+}

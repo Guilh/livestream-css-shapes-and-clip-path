@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+.wrapper {
+  height: 100%;
+  margin: 0;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  color: white;
+  font-size: 30em;
+  margin: 0;
+  padding-top: 0.435em;
+  transform: translateY(-18px);
+  filter: drop-shadow( 2px 2px 5px rgba(0,0,0, .5) );
+  clip-path: url('#clipPolygon');
+}
+.wrapper {
+  width: 70%;
+  background: url('../img/bg.jpg') no-repeat;
+  margin: 1.1em auto;
+}
